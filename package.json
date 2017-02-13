@@ -1,0 +1,27 @@
+{
+  "name": "helloworld",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\mocha test -u bdd -R spec",
+    "start": "node index.js",
+    "start:dev": "node index.js 4000",
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.0"
+  },
+  "dependencies": {
+    "koa": "^1.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  }
+}
